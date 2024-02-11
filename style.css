@@ -18,23 +18,55 @@ body {
   height: 100vh;
   min-width: 900px;
   min-height: 700px;
-  background: linear-gradient(rgb(85, 183, 225), rgb(4, 82, 146));
+  /* background: linear-gradient(rgb(85, 183, 225), rgb(4, 82, 146)); */
+  background-image: url("3.jpg");
+  background-position: center;
+  background-size: cover;
   position: relative;
 }
+.bachao{
+  display: block;
+}
+#botao1,#botao2{
+  display: inline-block;
+}
 #botao1 {
-  background: rgb(1, 77, 118);
+  
+  /* display: block; */
+  /* background: rgb(6, 121, 236); */
+  background-image: linear-gradient(135deg, #0d61ec 10%, #de0f82 100%);
   color: white;
   padding: 10px;
-  margin-top: 60px;
+  margin-top: 10px;
+  font-family: 'Protest Riot', sans-serif;
+  font-size: 25px;
+  border-radius: 20px;
+  margin-right: 40px;
+  
+}
+#botao2{
+  /* display: block; */
+  /* background: rgb(6, 121, 236); */
+  background-image: linear-gradient(135deg, #09203f 10%, #537895 100%);
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: 'Protest Riot', sans-serif;
+  font-size: 25px;
+  border-radius: 20px;
 }
 .motive {
-  margin-left: 10%;
+  margin-left: 25%;
   padding-top: 20%;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(234, 241, 241);
+  /* font-family: 'Protest Riot', sans-serif; */
+  font-family: 'Satisfy', cursive;
+
 }
 .motive span {
   background: yellow;
+  padding-left: 7px;
+  border-radius: 20px;
   color: black;
 }
 .book {
@@ -42,6 +74,7 @@ body {
   height: 654.5px;
   transform: translate(-50%, -50%) rotatex(10deg) rotatey(-10deg);
   transform-style: preserve-3d;
+  margin-left: 140px;
 }
 
 .page {
@@ -1159,23 +1192,40 @@ body {
 
 .cover-front:nth-child(1) {
   text-align: center;
-  background: linear-gradient(#afd2dd, #a1d5e5) 50% 50%/80% 86% no-repeat,
-    linear-gradient(#ffffff, #ffffff) 50% 50%/90% 93% no-repeat,
-    linear-gradient(#9bc8d6, #9bc8d6) no-repeat;
+  background: radial-gradient(#97ABFF, #123597, black) 50% 50%/80% 86% no-repeat,
+    radial-gradient(#fad0c4, #ffd1ff) 50% 50%/90% 93% no-repeat,
+    radial-gradient(#0d61ec, #de0f82, black) no-repeat;
 }
 .cover-front:nth-child(1) h1 {
-  font-family: "Lora", serif;
-  font-size: 45px;
-  color: #134a78;
-  margin-top: 30px;
+  /* font-family: "Lora", serif; */
+  font-family: 'Protest Riot', sans-serif;
+  font-size: 55px;
+  /* color: #e5ff00; */
+  color: #FFD700;
+  text-shadow: 8px 8px 8px #011217;
+  margin-top: 100px;
   text-transform: uppercase;
 }
 .cover-front:nth-child(1) h2 {
-  font-family: "EB Garamond", serif;
-  font-size: 24px;
-  color: #134a78;
+  /* font-family: "EB Garamond", serif; */
+  font-family: 'Protest Riot', sans-serif;
+
+  font-size: 20px;
+  color: #e4dbdb;
   position: relative;
-  top: 40%;
+  top: 65%;
+}
+.please{
+  font-size: 25px;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+.bachao{
+  /* position: fixed; */
+  border-radius: 20px;
+  border-color: #011217;
+  border-style: solid;
+  border-width: 2px;
 }
 .cover-front:nth-child(1) .hat {
   font-size: 100px;
@@ -1186,21 +1236,24 @@ body {
 
 p {
   margin-bottom: 4%;
-  font-family: "EB Garamond", serif;
-  font-size: 16px;
+  /* font-family: "EB Garamond", serif; */
+  font-family: 'Protest Riot', sans-serif;
+  font-size: 15px;
 }
 
 .page:nth-child(3) p:first-of-type:first-letter {
   font-size: 32px;
 }
 
-.instruction {
+/* .instruction {
   left: calc(50% - 150px);
-  font-size: 26px;
-  font-family: "EB Garamond", serif;
-  color: #0009;
+  font-size: 26px; */
+  /* font-family: "EB Garamond", serif; */
+  /* font-family: 'Protest Riot', sans-serif;
+
+  color: rgba(0, 0, 0, 0.6);
   box-sizing: border-box;
   border-radius: 2px solid red;
   padding: 10px 15px;
   margin-top: 10%;
-}
+} */

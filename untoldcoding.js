@@ -19,3 +19,12 @@ function movePage(e, page) {
     toggleClass(e.previousElementSibling, "left-side");
   }
 }
+function teleport() {
+  var teleportButton = document.getElementById('botao2');
+  var randomX = Math.random() * window.innerWidth;
+  var randomY = Math.random() * window.innerHeight;
+
+  teleportButton.style.position = 'absolute';
+  teleportButton.style.left = randomX + 'px';
+  teleportButton.style.top = randomY + 'px';
+}
